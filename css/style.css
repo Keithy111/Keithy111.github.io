@@ -56,3 +56,12 @@ ul {
 ul li {
   margin: 0.5rem 0;
 }
+
+video {
+  display: block;
+  /* Ensures the video takes a full line */
+  margin-top: 10px;
+  /* Adds space above the video */
+  margin-bottom: 20px;
+  /* Adds space below the video */
+}
