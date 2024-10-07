@@ -4,6 +4,9 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -32,6 +35,7 @@ nav ul li a {
 section {
   padding: 2rem;
   text-align: center;
+  flex-grow: 1;
 }
 
 footer {
@@ -39,11 +43,7 @@ footer {
   padding: 1rem;
   background-color: #333;
   color: white;
-  position: relative;
-  /* Change absolute to relative */
-  width: 100%;
-  margin-top: 2rem;
-  /* Adds some spacing */
+  /* Remove position absolute */
 }
 
 h1 {
@@ -61,9 +61,6 @@ ul li {
 
 video {
   display: block;
-  /* Ensures the video takes a full line */
   margin-top: 10px;
-  /* Adds space above the video */
   margin-bottom: 20px;
-  /* Adds space below the video */
 }
